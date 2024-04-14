@@ -1,0 +1,45 @@
+name: grandota
+description: A new Qchua.pe project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.3.1
+  line_icons: ^2.0.1
+  url_launcher: ^6.0.20
+  carousel_pro: ^1.0.0
+  carousel_pro_nullsafety: ^1.0.2
+  page_transition: ^2.0.5
+  badges: ^2.0.2
+  bottom_sheet: ^1.0.5
+  google_maps_flutter: ^2.1.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: ^0.9.1
+flutter_icons:
+  image_path: "assets/images/iconApp.png"
+  android: "launcher_icon"
+  ios: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
